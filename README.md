@@ -29,15 +29,15 @@ The above environment is successful when running the code of the project. Pytorc
 Running```git clone https://github.com/activelearning2022/adversarial_active_learning.git```  
 The project structure and intention are as follows : 
 ```
-Adversarial active learning			# Source code		
+Adversarial active learning			   # Source code		
     ├── seed.py                    # Set up random seed
     ├── query_strategies                    # All query_strategies
-    │   ├── adaptive_adversarial_sample.py                    # Our method
-    │   ├── adversarial_deepfool.py                    # The method we based on
-    │   ├── bayesian_active_learning_disagreement_dropout.py                    # Deep bayesian query method
-    │   ├── entropy_sampling.py                    # Entropy based query method
-    │   ├── entropy_sampling_dropout.py                    # Entropy based MC dropout query method
-    │   ├── random_sampling.py                    # Random selection
+    │   ├── adaptive_adversarial_sample.py  # Our method
+    │   ├── adversarial_deepfool.py         # The method we based on
+    │   ├── bayesian_active_learning_disagreement_dropout.py  # Deep bayesian query method
+    │   ├── entropy_sampling.py             # Entropy based query method
+    │   ├── entropy_sampling_dropout.py     # Entropy based MC dropout query method
+    │   ├── random_sampling.py              # Random selection
     │   ├── strategy.py                    # Functions needed for query strategies
     ├── data.py                    # Prepare the dataset & initialization and update for training dataset
     ├── handlers.py                    # Get dataloader for the dataset
